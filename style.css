@@ -1,0 +1,43 @@
+http://api.openweathermap.org/data/2.5/weather?q=Miami&units=imperial&appid=e83b3c4c08285bf87b99f9bbc0abe3f0
+
+
+
+{
+    "coord": {
+        "lon": -74.01,
+        "lat": 40.71
+    },
+    "weather": [{
+        "id": 601,
+        "main": "Snow",
+        "description": "snow",
+        "icon": "13d"
+    }],
+    "base": "stations",
+    "main": {
+        "temp": 30.25,
+        "pressure": 1014,
+        "humidity": 68,
+        "temp_min": 26.6,
+        "temp_max": 37.4
+    },
+    "wind": {
+        "speed": 4.7,
+        "deg": 150
+    },
+    "clouds": {
+        "all": 90
+    },
+    "dt": 1485874320,
+    "sys": {
+        "type": 1,
+        "id": 1972,
+        "message": 0.1594,
+        "country": "US",
+        "sunrise": 1485864365,
+        "sunset": 1485900819
+    },
+    "id": 5128581,
+    "name": "New York",
+    "cod": 200
+}
